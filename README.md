@@ -38,7 +38,7 @@ If you're not familiar with promises, check out the [MDN documentation](https://
 
 ## Built on Top of Node.js readline library
 
-Under the hood, `readline` leverages the built-in [readline library](https://nodejs.org/api/readline.html) in Node.js, ensuring a seamless and efficient experience.
+Under the hood, `readtastic` leverages the built-in [readline library](https://nodejs.org/api/readline.html) in Node.js, ensuring a seamless and efficient experience.
 
 # Api usage
 
