@@ -2,7 +2,7 @@
 //
 // Author(s) -> BlazeInferno64
 //
-// Last updated: 30/11/2024
+// Last updated: 23/12/2024
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
 // copy of this software and associated documentation files (the
@@ -25,16 +25,17 @@
 
 "use strict";
 /**
- * blazed.js is a blazing-fast, light weight, high-performance, promise-based HTTP client
+ * Readtastic is a fast, minimalistic, lightweight, promise-based tool for interacting with input streams line by line.
  * 
- * HTTP requests done right
+ * It simplifies the process of reading user input, making it easy to create interactive command-line applications.
  * 
- * Learn more about it from [here](https://github.com/blazeinferno64/blazed.js)
- * @example 
- * // Require it in your project by doing -
- * const blazed = require("blazed.js");
+ * Learn more about it from [here](https://github.com/blazeinferno64/readtastic.js).
  * 
- * // Or import it to your project if its an ES module by doing -
- * import blazed from "blazed.js";
+ * @example
+ * // Require it in your project using CommonJS syntax:
+ * const readtastic = require("readtastic");
+ * 
+ * // Or import it into your project if you're using ES modules:
+ * import readtastic from "readtastic";
  */
-module.exports = require("./src/blazed");
+module.exports = require("./lib/readtastic");
